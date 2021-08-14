@@ -28,7 +28,7 @@ public class MatrixStackMixin implements MatrixStackData {
     
     private void handle(boolean isPush) {
         StackTraceElement caller = Thread.currentThread().getStackTrace()[4];
-        String method = caller.toString();
+        String method = caller.getClassName() + "." + caller.getMethodName();
         boolean existed = callers.remove(new MatrixStackAction(method, !isPush));
         if (!existed) {
             callers.add(new MatrixStackAction(method, isPush));
