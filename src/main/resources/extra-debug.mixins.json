@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.mattidragon.extradebug.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MatrixStackMixin",
+    "WorldRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
