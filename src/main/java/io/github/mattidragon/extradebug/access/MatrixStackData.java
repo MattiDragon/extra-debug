@@ -1,7 +1,7 @@
 package io.github.mattidragon.extradebug.access;
 
-import io.github.mattidragon.extradebug.MatrixStackAction;
+import io.github.mattidragon.extradebug.MatrixStackUser;
 
 public interface MatrixStackData {
-    MatrixStackAction[] getProblems();
+    MatrixStackUser[] getUsers();
 }
