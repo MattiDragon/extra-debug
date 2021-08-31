@@ -8,7 +8,6 @@
     "WorldRendererMixin"
   ],
   "client": [
-    "BadMixin"
   ],
   "injectors": {
     "defaultRequire": 1
